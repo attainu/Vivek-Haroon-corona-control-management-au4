@@ -1,0 +1,95 @@
+.tdeath {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 22px;
+  /* identical to box height */
+  color: #000000;
+}
+.text {
+  text-align: center;
+
+  font-style: normal;
+  font-weight: bold;
+  font-size: 17px;
+  /* identical to box height */
+
+  text-align: center;
+
+  color: #000000;
+}
+
+.footer {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  left: 0px;
+  background: #D62246;
+}
+.liveUpdates {
+  display: flex;
+  justify-content: center;
+}
+.Status {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0 5%;
+}
+
+.Card-status {
+  display: flex;
+  justify-content: center;
+  line-height: 20px;
+  padding-top: 15px;
+  font-size: 1.2rem
+}
+.statusBoard {
+  text-align: center;
+  height: auto;
+  width: 300px;
+  margin: 0 10px;
+}
+.mapView {
+  width: 60%;
+  margin: 0 20%;
+  height: 10%;
+}
+.mapView.div {
+  display: flex;
+}
+.props {
+  margin: 0 10px;
+}
+
+.slide-container {
+  width: 50%;
+  margin: auto;
+  text-align: center;
+}
+
+.each-slide div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  align-self: center;
+
+  height: 500px;
+ 
+  
+}
+@media only screen and (max-width: 800px) {
+  .each-slide div {
+   
+    height: 300px;
+  }
+  .slide-container {
+    width: 100%;
+    margin:0px;
+    background-position: center;
+   
+  }
+}
