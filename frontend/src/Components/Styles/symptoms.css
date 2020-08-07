@@ -1,0 +1,14 @@
+.noButton{
+    position: absalute ;
+    left:0 ;
+    background-color: rgb(32, 173, 27);
+    padding: 10px 24px;
+    border-radius: 8px;
+    color: white;
+}
+.yesButton{
+    background-color: rgb(223, 10, 38);
+    padding: 10px 24px;
+    border-radius: 8px;
+    color: white;
+}
